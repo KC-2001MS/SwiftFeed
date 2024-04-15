@@ -1,0 +1,189 @@
+{
+    "displayName": "Swift",
+    "blocks": [
+        {
+            "id": "aaak5ekldeecw",
+            "type": "input",
+            "inputType": "firehose",
+            "firehoseSeconds": 259200
+        },
+        {
+            "type": "regex",
+            "value": "com\\.apple\\.UIKit|swift\\d{3,}",
+            "caseSensitive": false,
+            "id": "aaak646x4ihe2",
+            "target": "link",
+            "invert": true
+        },
+        {
+            "type": "input",
+            "inputType": "tags",
+            "id": "aaak66pirndxk",
+            "tags": [
+                "python",
+                "c++",
+                "msl",
+                "metal",
+                "ios",
+                "ipados",
+                "macos",
+                "watchos",
+                "tvos",
+                "visionos",
+                "carplay",
+                "git",
+                "oss",
+                "iphone",
+                "ipad",
+                "mac",
+                "applewatch",
+                "appletv",
+                "visionpro",
+                "wwdc",
+                "",
+                "ml",
+                "ai",
+                "HIG"
+            ]
+        },
+        {
+            "id": "aaak5ekldh7vm",
+            "type": "regex",
+            "value": "Xcode|Playgounds|playgounds|SwiftUI|swiftui|uikit|UIKit|appkit|AppKit|metalkit|MetalKit|swift-win32|SwiftWin32|swiftwin32uiSwiftWin32UI|Core\\s?ML|\\score\\s?ml|Create\\s?ML|\\screate\\s?ml|WWDC|WWDC\\s?\\d{2}|WWDC\\s?\\d{4}|\\swwdc|\\swwdc\\s?\\d{2}|\\swwdc\\s?\\d{4}Swift\\s?\\d{1,2}|Swift\\s?\\d{1,2}\\.\\d{1,2}|\\siosdc|iOSDC|\\stry\\! Swift|try\\!\\sswift|\\stry\\sswift|try\\s?Swift|\\swift\\.org|developer\\.apple\\.com|testflight\\.apple\\.com|github\\.com\\/apple|github\\.com.+swift|github\\.com.+Swift|huggingface\\.co\\/apple|huggingface\\.co.+mlx|huggingface\\.co.+coreml|pkl-lang\\.org|Apple\\s?Developer|Apple\\s?Developers|Apple\\sdevelopers|Apple\\sdevelopers|Ask\\s?Apple|ask\\sApple|App\\s?Store\\s?Connect|app\\sstore\\sconnect|Human\\s?Interface\\s?Guidelines|human\\sinterface\\sguidelines|App\\s?Review\\s?Guidelines|app\\sreview\\sguidelines",
+            "caseSensitive": true,
+            "target": "text|alt_text|link",
+            "invert": false
+        },
+        {
+            "type": "stash",
+            "action": "stash",
+            "key": "sn3za5a",
+            "id": "aaalfnruf4zgq"
+        },
+        {
+            "type": "input",
+            "inputType": "tags",
+            "id": "aaak5i2uf5a5m",
+            "tags": [
+                "swiftfeed",
+                "SwiftFeed",
+                "swift-feed",
+                "Swift-Feed",
+                "swift",
+                "Swift",
+                "objective-c",
+                "Objective-C",
+                "pkl",
+                "msl",
+                "MSL",
+                "xcode",
+                "Xcode",
+                "swiftplaygrounds",
+                "SwiftPlaygrounds",
+                "swiftui",
+                "SwiftUI",
+                "uikit",
+                "UIKit",
+                "appkit",
+                "AppKit",
+                "metalkit",
+                "MetalKit",
+                "coreml",
+                "CoreML",
+                "core-ml",
+                "mlx",
+                "MLX",
+                "vapor",
+                "Vapor",
+                "swift-argument-parser",
+                "swiftargumentparser",
+                "SwiftArgumentParser",
+                "wwdc",
+                "WWDC",
+                "tryswift",
+                "trySwift",
+                "try-swift",
+                "iosdc",
+                "iOSDC",
+                "iosconf",
+                "letsvisionos",
+                "iosdev",
+                "ipadosdev",
+                "macosdev",
+                "watchosdev",
+                "tvosdev",
+                "visionosdev"
+            ],
+            "historySeconds": 604800
+        },
+        {
+            "type": "stash",
+            "action": "pop",
+            "key": "sn3za5a",
+            "id": "aaalfnruf5ipe"
+        },
+        {
+            "type": "regex",
+            "value": "swiftly|swifty|swiftian|swifts|swiftness|swiftnesses|swiftie|swifties",
+            "caseSensitive": false,
+            "id": "aaak5fuh3n7lu",
+            "target": "text|alt_text|link",
+            "invert": true
+        },
+        {
+            "type": "regex",
+            "value": "taylor.+swift|taylorswift|swifties",
+            "caseSensitive": false,
+            "id": "aaak5rausnhdm",
+            "invert": true,
+            "target": "text|alt_text|link"
+        },
+        {
+            "type": "regex",
+            "value": "showcase|lineup|gadget|trending\\sword|ショーケース|ラインラップ|ガジェット|要約",
+            "caseSensitive": false,
+            "id": "aaalfo4dpwptg",
+            "invert": true,
+            "target": "text|alt_text|link"
+        },
+        {
+            "id": "aaak5ekldg6xa",
+            "type": "remove",
+            "subject": "labels",
+            "value": null,
+            "labels": [
+                "did:plc:ar7c4by46qjdydhdevvrndac/sexual",
+                "did:plc:ar7c4by46qjdydhdevvrndac/nudity",
+                "did:plc:ar7c4by46qjdydhdevvrndac/porn",
+                "did:plc:ar7c4by46qjdydhdevvrndac/graphic-media",
+                "did:plc:ar7c4by46qjdydhdevvrndac/sexual-figurative",
+                "did:plc:ar7c4by46qjdydhdevvrndac/self-harm",
+                "did:plc:ar7c4by46qjdydhdevvrndac/intolerant",
+                "did:plc:ar7c4by46qjdydhdevvrndac/spam",
+                "did:plc:ar7c4by46qjdydhdevvrndac/!hide",
+                "did:plc:ar7c4by46qjdydhdevvrndac/ !warn",
+                "did:plc:ar7c4by46qjdydhdevvrndac/ corpse",
+                "did:plc:ar7c4by46qjdydhdevvrndac/intolerant-gender",
+                "did:plc:ar7c4by46qjdydhdevvrndac/ icon-intolerant"
+            ]
+        },
+        {
+            "type": "remove",
+            "subject": "duplicates",
+            "value": null,
+            "id": "aaak55ybe2zao"
+        },
+        {
+            "type": "remember_posts",
+            "key": "aaak5ekldg2wq",
+            "id": "aaaofw6lddoi2"
+        },
+        {
+            "id": "aaak5ekldease",
+            "type": "sort",
+            "sortType": "created_at",
+            "sortDirection": "desc"
+        }
+    ],
+    "license": "MIT"
+}
